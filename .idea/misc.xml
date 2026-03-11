@@ -3,6 +3,6 @@
   <component name="Black">
     <option name="sdkName" value="$USER_HOME$/miniconda3/envs/lanchain-learning" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="$USER_HOME$/miniconda3/envs/lanchain-learning" project-jdk-type="Python SDK" />
+  <component name="KubernetesApiProvider">{}</component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.14 (gen-ai-python-basics)" project-jdk-type="Python SDK" />
 </project>
