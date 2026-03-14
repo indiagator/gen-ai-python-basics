@@ -136,3 +136,29 @@ print(totalcost)
 print(5 > 3 and 10 < 8)
 print( (2**8) - (100 // 3) + (55 % 7))
 print(256-33+6)
+
+s = "Python"
+print(len(s)) # 6 characters
+print(s[0]) # P (indexing starts at 0)
+print(s[-1]) # n (negative index from end)
+print(s[2:5]) # tho (slicing: index 2,3,4)
+print(s[:3]) # Pyt (from start to 2)
+print(s[3:]) # hon (from 3 to end)
+print(s[::-1]) #nohtyP (reverse!)
+
+msg = " Hello, India! "
+print(msg.upper()) # " HELLO, INDIA! "
+print(msg.lower()) # "hello, india! "
+print(msg.center(20))
+print(msg.strip()) # "Hello, India!" (removes spaces)
+print(msg.replace("India", "World")) # " Hello, World! "
+print(msg.count("l")) # 3
+print(msg.find("India")) # 9 (index where it starts)
+print(msg.startswith(" Hello")) #True
+
+first = "Harish"
+last = "Mittal"
+full = first + " " + last
+print(full) # Harish Mittal
+line ="-" * 30
+print(line) # ------------------------------ (30 dashes)
