@@ -155,6 +155,7 @@ print(msg.replace("India", "World")) # " Hello, World! "
 print(msg.count("l")) # 3
 print(msg.find("India")) # 9 (index where it starts)
 print(msg.startswith(" Hello")) #True
+print(msg.split())
 
 first = "Harish"
 last = "Mittal"
@@ -162,3 +163,61 @@ full = first + " " + last
 print(full) # Harish Mittal
 line ="-" * 30
 print(line) # ------------------------------ (30 dashes)
+
+name = "Kiran"
+marks = 95
+subj = "Maths"
+print(f"{name} has got {marks} in the subject {subj}")
+print(f"Student name : {name}")
+print(f"{name} has got {marks * 2} which is double the marks {name} got last year")
+print(f"pi = {3.14159:.2f}")
+
+sentence = "I love Python programming"
+words = sentence.split()
+reverse = words[::-1]
+print(words) #['I', 'love', 'Python', 'programming']
+print(reverse)
+words2 = sentence.split(",")
+print(words2) #['I love Python programming']
+words3 = sentence.split("o")
+print(words3) #['I l', 've Pyth', 'n pr', 'gramming']
+print(len(words))
+
+joined = " ".join(words)
+print(joined)
+joined2 = "-".join(words2)
+print(joined2)
+Joined3 = "o".join(words3)
+print(Joined3)
+
+sentence1 = "I love Python programming"
+s="python"
+print(s.split())
+print(s.count("o"))
+
+word4 = "programming"
+print(word4.count("a"))
+print(word4.count("i"))
+print(word4.count("o"))
+print(word4.count("u"))
+print(word4.count("e"))
+
+len = int(input("length of rectangle = "))
+width = int(input("breadth of rectangle = "))
+print(f"Area of rectangle is {len * width} square meters")
+
+word5 = input("Enter a word: ")
+reverse = word5[::-1]
+print(f"Word {word5} is a Palindrome, this is {word5 == reverse}")
+
+fruits = ["apple", "banana", "cherry", "mango", "grapes"]
+print (fruits[1])
+fruits.reverse()
+print(fruits)
+fruits.append("orange")
+print(fruits)
+fruits.insert(1, "Guava")
+print(fruits)
+print(fruits.pop())
+fruits.pop()
+print(fruits)
